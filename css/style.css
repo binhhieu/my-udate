@@ -6,7 +6,12 @@
 /* body {
   position: relative;
 } */
-
+.title{
+  animation: colorBackground 0.5s infinite;
+  -webkit-animation: colorBackground 5s infinite;
+  -moz-animation: colorBackground 5s infinite;
+  -o-animation: colorBackground 0.5s infinite
+  }
 .content {
     width: 90%;
     margin: auto;
@@ -33,6 +38,9 @@
     height: 300px;
     padding-left: 5px;
     padding-left: 5px;
+    transition-duration: 0.3s;
+    border-radius: 50px;
+    
 }
 .content{
     
@@ -41,18 +49,18 @@
     -moz-animation: colorBackground 5s infinite;
     -o-animation: colorBackground 0.5s infinite
     }
-    @keyframes colorBackground {
-    50% {
-    background-color: rgb(129, 228, 193);
-    color: rgb(138, 58, 58);
-    
+    /* @keyframes colorBackground {
+    60% {
+    background-color: rgb(104, 18, 242);
     }
     50% {
-    background-color: rgb(238, 12, 118);
-    color: rgb(54, 178, 192);
-    
+    background-color: rgb(238, 12, 118);    
     }
+    }   */
+.content img:hover {
+      transform: scale(1.2);
     }
+        
 
 .menu {
     /* padding-top: 5px; */
@@ -343,7 +351,25 @@ header {
           margin-top: 30%;
           margin-left: 80%; } 
         }
+.mypicture{
+  animation: colorBackground 0.5s infinite;
+  -webkit-animation: colorBackground 5s infinite;
+  -moz-animation: colorBackground 5s infinite;
+  -o-animation: colorBackground 0.5s infinite
+  }
+  /* @keyframes colorBackground {
+  50% {
+  background-color: rgb(129, 228, 193);
+  color: rgb(138, 58, 58);
+  
+  }
+  50% {
+  background-color: rgb(238, 12, 118);
+  color: rgb(54, 178, 192);
+  
+  }
+} */
 
-    
+
      
  
