@@ -357,19 +357,38 @@ header {
   -moz-animation: colorBackground 5s infinite;
   -o-animation: colorBackground 0.5s infinite
   }
-  /* @keyframes colorBackground {
-  50% {
-  background-color: rgb(129, 228, 193);
-  color: rgb(138, 58, 58);
-  
+  .button1 {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+   cursor: pointer;
   }
-  50% {
-  background-color: rgb(238, 12, 118);
-  color: rgb(54, 178, 192);
-  
+ .button1:hover {
+    color: #fff;
   }
-} */
-
+ .button1 .btn1 {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+  }
+ .button1:hover .btn1 {
+    background: transparent;
+  }
 
      
  
